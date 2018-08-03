@@ -234,7 +234,7 @@ Collections.swap(list, Collections.binarySearch(list, Collections.max(otherList)
 - <span>base for a huge part of "standard library"</span> <!-- .element: class="fragment highlight-blue" -->
 
 ---------v
-# 4. Excensions
+# 4. Extensions
 ### example (our lock)
 ```kotlin
 inline fun <T> Lock.withLock(body: () -> T): T {
@@ -254,7 +254,7 @@ val result = l.withLock { someAction() }
 <!-- .element: class="fragment" -->
 
 ---------v
-# 4. Excensions
+# 4. Extensions
 ### example (from standard library)
 ```kotlin
 public fun <T> Iterable<T>.forEach(action: (T) -> Unit) {
@@ -263,7 +263,7 @@ public fun <T> Iterable<T>.forEach(action: (T) -> Unit) {
 ```
 
 ---------v
-# 4. Excensions
+# 4. Extensions
 ### example (from standard library)
 ```kotlin
 public inline fun <S, T : S> Iterable<T>.reduce(
