@@ -93,9 +93,9 @@ public class Person {
 
 # 2. Null safety
 
-- Nulls are part of the type system <!-- .element: class="fragment" -->
-- Types default to non-nullable <!-- .element: class="fragment" -->
-- <div>Mark nullable with the addition of a `?`</div> <!-- .element: class="fragment" -->
+- Nulls are part of the type system
+- Types default to non-nullable
+- Mark nullable with the addition of a `?`
 
 ---------v
 
