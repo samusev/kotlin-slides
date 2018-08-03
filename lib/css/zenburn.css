@@ -1,115 +1,93 @@
 /*
-Zenburn style from voldmar.ru (c) Vladimir Epifanov <voldmar@voldmar.ru>
-based on dark.css by Ivan Sagalaev
+
+XCode style (c) Angel Garcia <angelgarcia.mail@gmail.com>
+
 */
 
 .hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
-  background: #3f3f3f;
-  color: #dcdcdc;
-  -webkit-text-size-adjust: none;
+  background: #fff;
+  color: black;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #006a00;
 }
 
 .hljs-keyword,
-.hljs-tag,
-.css .hljs-class,
-.css .hljs-id,
-.lisp .hljs-title,
-.nginx .hljs-title,
-.hljs-request,
-.hljs-status,
-.clojure .hljs-attribute {
-  color: #e3ceab;
+.hljs-selector-tag,
+.hljs-literal {
+  color: #aa0d91;
 }
 
-.django .hljs-template_tag,
-.django .hljs-variable,
-.django .hljs-filter .hljs-argument {
-  color: #dcdcdc;
-}
-
-.hljs-number,
-.hljs-date {
-  color: #8cd0d3;
-}
-
-.dos .hljs-envvar,
-.dos .hljs-stream,
-.hljs-variable,
-.apache .hljs-sqbracket,
 .hljs-name {
-  color: #efdcbc;
+  color: #008;
 }
 
-.dos .hljs-flow,
-.diff .hljs-change,
-.python .exception,
-.python .hljs-built_in,
-.hljs-literal,
-.tex .hljs-special {
-  color: #efefaf;
+.hljs-variable,
+.hljs-template-variable {
+  color: #660;
 }
 
-.diff .hljs-chunk,
-.hljs-subst {
-  color: #8f8f8f;
+.hljs-string {
+  color: #c41a16;
 }
 
-.dos .hljs-keyword,
-.hljs-decorator,
+.hljs-regexp,
+.hljs-link {
+  color: #080;
+}
+
 .hljs-title,
+.hljs-tag,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-number,
+.hljs-meta {
+  color: #1c00cf;
+}
+
+.hljs-section,
+.hljs-class .hljs-title,
 .hljs-type,
-.diff .hljs-header,
-.ruby .hljs-class .hljs-parent,
-.apache .hljs-tag,
-.nginx .hljs-built_in,
-.tex .hljs-command,
-.hljs-prompt {
-  color: #efef8f;
-}
-
-.dos .hljs-winutils,
-.ruby .hljs-symbol,
-.ruby .hljs-symbol .hljs-string,
-.ruby .hljs-string {
-  color: #dca3a3;
-}
-
-.diff .hljs-deletion,
-.hljs-string,
-.hljs-tag .hljs-value,
-.hljs-preprocessor,
-.hljs-pragma,
+.hljs-attr,
 .hljs-built_in,
-.smalltalk .hljs-class,
-.smalltalk .hljs-localvars,
-.smalltalk .hljs-array,
-.css .hljs-rule .hljs-value,
-.hljs-attr_selector,
-.hljs-pseudo,
-.apache .hljs-cbracket,
-.tex .hljs-formula,
-.coffeescript .hljs-attribute {
-  color: #cc9393;
+.hljs-builtin-name,
+.hljs-params {
+  color: #5c2699;
 }
 
-.hljs-shebang,
-.diff .hljs-addition,
-.hljs-comment,
-.hljs-annotation,
-.hljs-pi,
-.hljs-doctype {
-  color: #7f9f7f;
+.hljs-attribute,
+.hljs-subst {
+  color: #000;
 }
 
-.coffeescript .javascript,
-.javascript .xml,
-.tex .hljs-formula,
-.xml .javascript,
-.xml .vbscript,
-.xml .css,
-.xml .hljs-cdata {
-  opacity: 0.5;
+.hljs-formula {
+  background-color: #eee;
+  font-style: italic;
+}
+
+.hljs-addition {
+  background-color: #baeeba;
+}
+
+.hljs-deletion {
+  background-color: #ffc8bd;
+}
+
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #9b703f;
+}
+
+.hljs-doctag,
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-emphasis {
+  font-style: italic;
 }

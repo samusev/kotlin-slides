@@ -168,6 +168,11 @@ html:-moz-full-screen-ancestor {
   max-height: 100%;
   box-sizing: border-box; }
 
+.reveal pre code.java {
+    font-size: 0.5em;
+    line-height: 0.85;
+}
+
 /*********************************************
  * CONTROLS
  *********************************************/
