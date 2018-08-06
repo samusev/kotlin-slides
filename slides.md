@@ -186,7 +186,7 @@ fun <T, R> fold(
 ---------v
 # 3. Lambdas
 - <div>syntax: `val sum = { x: Int, y: Int -> x + y }`</div> <!-- .element: class="fragment" -->
-- <div>`val product = items.fold(1) { acc, e -> acc * e }`</div> <!-- .element: class="fragment" -->
+- <div>`val product = fold(items, 1) { acc, e -> acc * e }`</div> <!-- .element: class="fragment" -->
 - <div>`it`: implicit first parameter `ints.filter {it > 0}`</div> <!-- .element: class="fragment" -->
 - <div>closures (clojure scope is less restrictive than java)</div> <!-- .element: class="fragment" -->
 
